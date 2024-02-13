@@ -1,0 +1,68 @@
+.dndContainer{
+    text-align: left;
+    width: 46%;
+}
+
+.dndTitle{
+    font-weight: bold;
+    font-size: 10px;
+    color: rgb(14, 37, 65);
+    margin-bottom: 10px;
+}
+
+.innerContainer{
+    border-style: solid;
+    text-align: center;
+    height: 125px;
+    padding: 15px;
+    border-color: rgb(198, 197, 197);
+    border-radius: 10px;
+}
+
+.dropZone {
+    border-style: dashed;
+    height: 90px;
+    border-radius: 8px;
+    border-color: rgb(198, 197, 197);
+}
+
+input[type="file"] {
+    display: none;
+    
+}
+
+.Browse {
+    cursor: pointer;
+    font-weight: 1000;
+    font-size: x-small;
+    color: rgb(14, 37, 65);
+}
+
+.text{
+    display: inline-block;
+    font-size: x-small;
+    color: rgb(14, 37, 65);
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+Button {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.icon {
+    margin-left: 55px;
+    margin-top: 20px;
+    position: absolute;
+    color: rgb(233, 152, 2);
+    transform: scale(.8);
+}
+
+.selection {
+    display: inline-block;
+    font-size: x-small;
+    color: rgb(14, 37, 65);
+    font-weight: bold;
+    margin-top: -50px;
+}

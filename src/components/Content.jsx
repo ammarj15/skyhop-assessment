@@ -5,6 +5,7 @@ import ClientChoice from './ClientChoice';
 import SplitChoice from './SplitChoice';
 import TestingCenter from './TestingCenter';
 import Tolerance from './Tolerance';
+import DragAndDrop from './DragAndDrop';
 
 export const Content = () => {
   return (
@@ -21,6 +22,7 @@ export const Content = () => {
         </Checking>
         <TestingCenter></TestingCenter>
         <Tolerance></Tolerance> */}
+        {/* <DragAndDrop ></DragAndDrop> */}
     </div>
   )
 }
