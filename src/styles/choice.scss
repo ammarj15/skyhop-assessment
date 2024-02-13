@@ -1,0 +1,43 @@
+.choice{
+    position: relative;
+    text-align: left;
+    font-size: small;
+}
+
+.choice1{
+    display: inline-block;
+    color: rgb(41, 72, 114);
+    font-weight: 500;
+    cursor: pointer;;
+}
+
+.choice2{
+    display: inline-block;
+    padding-left: 18px;
+    color: rgb(41, 72, 114);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.question{
+    font-size: smaller;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    color: rgb(14, 37, 65);
+}
+
+.choice1 input[type='radio']{
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    border: 1.5px solid #8a8a8a;
+    border-radius: 50%;
+}
+
+.choice2 input[type='radio']{
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    border: 1.5px solid #8a8a8a;
+    border-radius: 50%;
+}
